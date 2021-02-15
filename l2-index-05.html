@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Orbix - HTML Responsive Multi-Purpose Template</title>
+
+	<!--pageMeta-->
+	
+    
+	<!-- LIB CSS -->
+	<link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="lib/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="lib/owl-carousel/owl.css" rel="stylesheet">
+    <link href="lib/Swiper/css/swiper.min.css" rel="stylesheet">
+    <link href="lib/owl-carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/vegas/vegas.min.css" rel="stylesheet">
+    <link href="lib/Magnific-Popup/magnific-popup.css" rel="stylesheet">
+    <link href="lib/sweetalert/sweetalert2.min.css" rel="stylesheet">
+    <link href="lib/materialize-parallax/materialize-parallax.css" rel="stylesheet">
+
+	<!-- ICON FONTS -->
+    <link href="fonts/fontawesome/fontawesome-all.min.css" rel="stylesheet">
+    <link href="fonts/pixeden/pe-icon-7-stroke.css" rel="stylesheet">
+    <link href="fonts/et-line/et-line-font.css" rel="stylesheet">
+    <link href="fonts/material-webfont/css/materialdesignicons.min.css" rel="stylesheet">
+
+    <!-- TEMPLATE CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/ckav-grids.css" rel="stylesheet">
+    <link href="css/helper.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!-- THEME COLOR CSS -->
+    <link href="css/themes/theme-02.css" rel="stylesheet">
+    <link href="css/template-custom.css" rel="stylesheet">
+
+	<!-- FAVICONS -->
+	<link rel="icon" href="images/favicons/favicon.ico">
+	<link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png">
+
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	<!--[if IE 9 ]><script src="js/ie-matchmedia.js"></script><![endif]-->
+
+</head>
+
+
+<body class="bg-light glasslayout">
+
+    <!--
+    ************************************************************
+    * PAGELOADER
+    *************************************************************
+    -->
+    <div id="pageloader">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- ************** END : PAGELOADER **************  -->
+
+    <!--
+    ************************************************************
+    * MAIN WRAPPER
+    *************************************************************
+    -->
+    <div class="mainwrapper min-vh-h100">
+
+        <!--=================================
+        = BACKGROUND HOLDER
+        ==================================-->
+        <div class="bg-holder full-wh z1">
+            
+            <!-- OVERLAY -->
+            <b data-bgholder="overlay" class="full-wh z3" data-rgradient="y" data-rg-colors="rgba(0, 0, 0, 0)|rgba(0, 0, 0, 1)"></b>
+            
+            <!-- BACKGROUND IMAGE -->
+            <b data-bgholder="bg-img" class="full-wh bg-cover bg-cc z1" data-bg="images/bg-09.jpg"></b>
+
+        </div>
+        <!-- ======= END : BACKGROUND HOLDER =======  -->
+
+        <!--
+        ************************************************************
+        * HEADER
+        *************************************************************
+        -->
+        <header class="header px-h120 flex-cc fixed t0 l0 w100" data-ckav-sm="pd-0 block" data-scrollsticky="y">
+            <div class="container-fluid z1 pd-lr-30" data-ckav-sm="w-reset w100">
+                <div class="row align-items-center typo-light">
+                     <div class="col-lg-2" data-ckav-md="align-l pd-20" data-ckav-sm="align-l pd-10">
+                        <a href="#" class="inline-block px-w60 mr-auto logowrp" data-ckav-md="px-w60" data-ckav-sm="px-w40"><img src="images/logo.png"></a>
+
+                        <div class="menu-iconwrp" data-ckav-md="block pd-40" data-ckav-sm="block pd-10 pd-tb-tiny">
+                            <div class="menu-icon" data-ckav-sm="block">
+                                <span></span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-10 align-r" data-ckav-sm="align-c">
+                        <ul class="list-reset nav-ul inline-block fs12 txt-white txt-upper bold-4 f-2" data-ckav-sm="block">
+                            <li><a href="#" data-pagelinkto="homepage" class="mr-lr-20 mr-tb-10 pd-tb-10 block pagelink active-menulink">Home</a></li>
+                            <li><a href="#" data-pagelinkto="aboutpage" class="mr-lr-20 mr-tb-10 pd-tb-10 block pagelink">About</a></li>
+                            <li><a href="#" data-pagelinkto="servicepage" class="mr-lr-20 mr-tb-10 pd-tb-10 block pagelink">Services</a></li>
+                            <li><a href="#" data-pagelinkto="portfoliopage" class="mr-lr-20 mr-tb-10 pd-tb-10 block pagelink">Portfolio</a></li>
+                            <li><a href="#" data-pagelinkto="contactpage" class="mr-lr-20 mr-tb-10 pd-tb-10 block pagelink">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- ************** END : HEADER **************  -->
+
+        <!--
+        ************************************************************
+        * HOME PAGE
+        *************************************************************
+        -->
+        <div data-thispage="homepage" class="mainpage ckav-pages homepage flex-cc typo-light activepage" data-bgcolor="rgba(0,0,0,0.0)">
+
+            <div class="full-wh nc-background nc-bgeffect z3">
+                <div id="particles-js"></div>
+            </div>
+            
+            <!--=================================
+            = TEXT AREA
+            ==================================-->
+            <div class="container">
+                <div data-ckav-sm="align-c">
+                    <div class="carousel-widget ctrl-3 align-l" 
+                        data-items="1"
+                        data-nav="false"
+                        data-pager="false"
+                        data-itemrange="0,1|420,1|600,1|768,1|992,1|1200,1"
+                        data-margin="30"
+                        data-autoplay="true"
+                        data-hauto="true"
+                        data-in="fadeIn"
+                        data-out="fadeOut"
+                        data-loop="true"
+                        data-center="false">
+                        <div class="owl-carousel">
+                            
+                            <div class="item">
+                                <h1 class="title f-1 fs80 bold-4 mr-b-20 lh-2" data-ckav-md="fs40" data-ckav-sm="fs30">Every moment <br>is precious</h1>
+                            </div>
+                            <div class="item">
+                                <h1 class="title f-1 fs80 bold-4 mr-b-20 lh-2" data-ckav-md="fs40" data-ckav-sm="fs30">Life is not <br>forever, Love is</h1>
+                            </div>
+                            <div class="item">
+                                <h1 class="title f-1 fs80 bold-4 mr-b-20 lh-2" data-ckav-md="fs40" data-ckav-sm="fs30">Create your, <br>own sunshine</h1>
+                            </div>
+
+                        </div>
+                    </div>
+                    <p class="fs16 f-2 px-w500 lh-6 mr-b-60" data-ckav-sm="mr-b-30 w100">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    </p>
+                    <a href="#popup-content" class="set-popup btn btn-default solid hov-btn-white txt-upper round">Let's Work toether</a>
+                </div>
+            </div>
+            <!-- ======= END : TEXT AREA =======  -->
+
+            <!--=================================
+            = SOCIAL ICONS
+            ==================================-->
+            <div class="social-icons pd-tb-30 fixed b0 l0 w100 z2 align-l" data-ckav-sm="align-c">
+                <div class="inline-block pd-lr-30">
+                    <a href="http://ckavart.com/" target="_blank" class="sq40 fs14 mr-r-4 rd iconbox btn-default txt-white bdr-1 bdr-op-light-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="http://ckavart.com/" target="_blank" class="sq40 fs14 mr-r-4 rd iconbox btn-default txt-white bdr-1 bdr-op-light-2"><i class="fab fa-twitter"></i></a>
+                    <a href="http://ckavart.com/" target="_blank" class="sq40 fs14 mr-r-4 rd iconbox btn-default txt-white bdr-1 bdr-op-light-2"><i class="fab fa-google"></i></a>
+                    <a href="http://ckavart.com/" target="_blank" class="sq40 fs14 mr-r-4 rd iconbox btn-default txt-white bdr-1 bdr-op-light-2"><i class="fab fa-tumblr"></i></a>
+                </div>
+            </div>
+            <!-- ======= END : SOCIAL ICONS =======  -->
+
+        </div>
+        <!-- ************** END : HOME PAGE **************  -->
+
+        <!--
+        ************************************************************
+        * ABOUT PAGE
+        *************************************************************
+        -->
+        <div data-thispage="aboutpage" class="otherpage flex-cc ckav-pages aboutpage typo-light pd-t-40" data-bgcolor="rgba(0,0,0,0.8)" data-ckav-sm="pd-tb-large block">
+
+            <div class="bg-title absolute w100 l0 t-pr10 op-01 align-c" data-ckav-sm="pos-rel t0">
+                <h1 class="title fs-vw16 bold-5 f-1">About Us</h1>
+            </div>
+            <div class="container">
+               <div class="row gt40 mb20 align-items-center">
+                    <div class="col-lg-6" data-ckav-sm="align-c mr-b-60">
+                        <h3 class="title f-1 fs60 bold-4 mr-b-20 lh-2" data-ckav-md="fs40" data-ckav-sm="fs30">Quick into</h3>
+                        <p class="title-sub" data-ckav-sm="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos expedita in dignissimos.</p>
+                        <p class="fs14 f-2 lh-6 op-07 mr-b-60" data-ckav-sm="mr-b-30 w100">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+                        </p>
+                        <a href="#" class="btn btn-white bdr-op-light-2 small bold-3 txt-upper round">Know something more</a>
+                    </div>
+                    <div class="col-lg-5 offset-md-1 animated fadeInRight" data-animate-in="fadeInRight|0.2" style="animation-delay: 0.2s;">
+                        <h3 class="fs16 mr-b-10 bold-n f-1">Wordpress</h3>
+                        <div class="progress bg-dark">
+                            <div class="progress-bar bg-default" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                <b class="percentage">60% <i class="fa fa-caret-down"></i></b>	
+                            </div>
+                        </div>
+    
+                        <h3 class="fs16 mr-b-10 bold-n f-1">HTML 5</h3>
+                        <div class="progress bg-dark">
+                            <div class="progress-bar bg-default" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                <b class="percentage">80% <i class="fa fa-caret-down"></i></b>	
+                            </div>
+                        </div>
+    
+                        <h3 class="fs16 mr-b-10 bold-n f-1">CSS 3</h3>
+                        <div class="progress bg-dark">
+                            <div class="progress-bar bg-default" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                                <b class="percentage">75% <i class="fa fa-caret-down"></i></b>
+                            </div>
+                        </div>
+    
+                        <h3 class="fs16 mr-b-10 bold-n f-1">jQuery</h3>
+                        <div class="progress bg-dark">
+                            <div class="progress-bar bg-default" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                <b class="percentage">60% <i class="fa fa-caret-down"></i></b>
+                            </div>
+                        </div>
+    
+                        <h3 class="fs16 mr-b-10 bold-n f-1">AngularJS</h3>
+                        <div class="progress bg-dark">
+                            <div class="progress-bar bg-default" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                <b class="percentage">70% <i class="fa fa-caret-down"></i></b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- ************** END : ABOUT PAGE **************  -->
+
+        <!--
+        ************************************************************
+        * SERVICES PAGE
+        *************************************************************
+        -->
+        <div data-thispage="servicepage" class="otherpage flex-cc ckav-pages servicepage typo-light align-c pd-t-40" data-bgcolor="rgba(0,0,0,0.8)" data-ckav-sm="pd-tb-large block">
+
+            <div class="bg-title absolute w100 l0 t-pr10 op-01 align-c" data-ckav-sm="pos-rel t0">
+                <h1 class="title fs-vw16 bold-5 f-1">Services</h1>
+            </div>
+                
+            <div class="container">
+
+                <div class="carousel-widget light ctrl-3 align-c zoom-carousel overflow-none -mr-b-100" 
+                    data-items="1"
+                    data-nav="true"
+                    data-pager="false"
+                    data-itemrange="0,1|420,1|600,2|768,3|992,3|1200,3"
+                    data-margin="30"
+                    data-autoplay="true"
+                    data-loop="true"
+                    data-hauto="false"
+                    data-in="false"
+                    data-out="false"
+                    data-center="true">
+                    <div class="owl-carousel">
+                        
+                        <div class="item">
+                            <div class="content">
+                                <div class="info-obj img-t g10 large align-c pd-40 typo-light" data-ckav-sm="small">
+                                    <div class="img"><span class="iconwrp rd txt-default"><i class="pe-7s-paint-bucket"></i></span></div>
+                                    <div class="info">
+                                        <h3 class="title f-1 fs20 bold-4 mr-b-20">Design</h3>
+                                        <p class="f-2 mr-auto mr-b-0 op-07">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin leo a dictum viverra. Nulla semper hendrerit sodales semper. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="content">
+                                <div class="info-obj img-t g10 large align-c pd-40 typo-light">
+                                    <div class="img"><span class="iconwrp rd txt-default"><i class="pe-7s-headphones"></i></span></div>
+                                    <div class="info">
+                                        <h3 class="title f-1 fs20 bold-4 mr-b-20">Support</h3>
+                                        <p class="f-2 mr-auto mr-b-0 op-07">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin leo a dictum viverra. Nulla semper hendrerit sodales semper. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="content">
+                                <div class="info-obj img-t g10 large align-c pd-40 typo-light">
+                                    <div class="img"><span class="iconwrp rd txt-default"><i class="pe-7s-medal"></i></span></div>
+                                    <div class="info">
+                                        <h3 class="title f-1 fs20 bold-4 mr-b-20">Quality</h3>
+                                        <p class="f-2 mr-auto mr-b-0 op-07">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin leo a dictum viverra. Nulla semper hendrerit sodales semper. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="content">
+                                <div class="info-obj img-t g10 large align-c pd-40 typo-light">
+                                    <div class="img"><span class="iconwrp rd txt-default"><i class="pe-7s-rocket"></i></span></div>
+                                    <div class="info">
+                                        <h3 class="title f-1 fs20 bold-4 mr-b-20">Marketing</h3>
+                                        <p class="f-2 mr-auto mr-b-0 op-07">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin leo a dictum viverra. Nulla semper hendrerit sodales semper. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+
+                <hr class="px-w500 mr-auto bdr-op-light-1 mr-tb-40" data-ckav-sm="mr-tb-30">
+
+                <p class="title-sub op-07 mr-b-60" data-ckav-sm="small mr-b-30">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+
+                <a href="#" class="set-popup btn btn-default solid hov-btn-white txt-upper round">View Portfolio</a>
+
+            </div>
+                
+        </div>
+        <!-- ************** END : SERVICES PAGE **************  -->
+
+        <!--
+        ************************************************************
+        * CONTACT PAGE
+        *************************************************************
+        -->
+        <div data-thispage="contactpage" class="otherpage flex-cc ckav-pages contactpage typo-light align-c pd-t-40" data-bgcolor="rgba(0,0,0,0.8)" data-ckav-sm="pd-tb-large block">
+            
+            <div class="bg-title absolute w100 l0 t-pr10 op-01 align-c" data-ckav-sm="pos-rel t0">
+                <h1 class="title fs-vw16 bold-5 f-1">Contact Us</h1>
+            </div>
+
+            <div class="container">
+                <div class="row gt80 align-items-center">
+
+                    <div class="col-lg-7 align-l" data-ckav-sm="align-c mr-b-60">
+                        <h3 class="title f-1 fs60 bold-4 mr-b-40 lh-2" data-ckav-md="fs40" data-ckav-sm="fs30 mr-b-30">Drop us line</h3>
+
+                            <!-- CONTACT FORM -->
+                            <form action="form-data/formdata.php" class="form-widget" novalidate="novalidate" data-ckav-sm="align-c w100">
+                            <div class="field-wrp mr-b-40">
+                                <input type="hidden" name="to" value="c.kav.art@gmail.com">
+    
+                                <div class="row gt10">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input class="form-control form-control-light bb" data-label="Name" required="" data-msg="Please enter name." type="text" name="name" placeholder="Enter your name" aria-required="true">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input class="form-control form-control-light bb" data-label="Email" required="" data-msg="Please enter email." type="email" name="email" placeholder="Enter your email" aria-required="true">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <input class="form-control form-control-light bb" required="" data-label="Phone" data-msg="Please phone number." type="text" name="phone" placeholder="Enter your phone number" aria-required="true">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control form-control-light bb" data-label="Message" required="" data-msg="Please enter your message." name="message" placeholder="Add your message" cols="30" rows="5" aria-required="true"></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn solid btn-default txt-upper round mr-auto"><i class="fa fa-envelope-o"></i> Send Message</button>
+                        </form><!-- / CONTACT FORM -->
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="info-obj img-l g30 mini">
+                            <div class="img txt-default"><span class="iconwrp"><i class="pe-7s-map-marker"></i></span></div>
+                            <div class="info align-l">
+                                <h3 class="title mini bold-4 mr-b-10 f-1" data-ckav-sm="fs16">Our Location</h3>
+                                <p class="mr-0 f-1 op-07">
+                                    PO Box 16122, Collins Street West, Victoria 8007, Australia
+                                </p>
+                            </div>
+                        </div>
+
+                        <hr class="bdr-op-light-1 mr-tb-40" data-ckav-sm="mr-tb-30">
+
+                        <div class="info-obj img-l g30 mini">
+                            <div class="img txt-default"><span class="iconwrp"><i class="pe-7s-call"></i></span></div>
+                            <div class="info align-l">
+                                <h3 class="title mini bold-4 mr-b-10 f-1" data-ckav-sm="fs16">Call Us</h3>
+                                <p class="mr-0 f-1 op-07">
+                                    +1234-678-890
+                                </p>
+                            </div>
+                        </div>
+
+                        <hr class="bdr-op-light-1 mr-tb-40" data-ckav-sm="mr-tb-30">
+
+                        <div class="info-obj img-l g30 mini">
+                            <div class="img txt-default"><span class="iconwrp"><i class="pe-7s-mail-open"></i></span></div>
+                            <div class="info align-l">
+                                <h3 class="title mini bold-4 mr-b-10 f-1" data-ckav-sm="fs16">E-Mail Us</h3>
+                                <p class="mr-0 f-1 op-07">
+                                    c.kav.art@gmail.com
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!-- ************** END : CONTACT PAGE **************  -->
+
+        <!--
+        ************************************************************
+        * PORTFOLIO
+        *************************************************************
+        -->
+        <div data-thispage="portfoliopage" class="otherpage flex-cc ckav-pages portfoliopage typo-light align-c pd-t-40" data-bgcolor="rgba(0,0,0,0.8)" data-ckav-sm="pd-tb-large block">
+            
+            <div class="bg-title absolute w100 l0 t-pr10 op-01 align-c" data-ckav-sm="pos-rel t0">
+                <h1 class="title fs-vw16 bold-5 f-1">Portfolio</h1>
+            </div>
+
+            <div class="container-fluid">
+                <div class="carousel-widget fill-dot ctrl-1 align-c zoom-carousel ctrl-light" 
+                data-items="1"
+                data-nav="true"
+                data-pager="true"
+                data-itemrange="0,1|420,1|600,2|768,3|992,3|1200,3"
+                data-margin="10"
+                data-autoplay="true"
+                data-hauto="false"
+                data-in="false"
+                data-out="false"
+                data-loop="true"
+                data-center="true">
+                <div class="owl-carousel">
+                    
+                    <div class="item">
+                        <div class="content">
+                            <figure class="hover-box1">
+                                <figcaption class="overlay z2 pd-tiny flex-cc typo-light align-c">
+                                    <div class="pos-rel z1 ani-down w100">
+                                        <a href="images/800x600-blog-01.jpg" class="sq50 btn-white shadow-large hov-bg-white fs22 iconbox rd bdr-1 zoom-img"><i class="pe-7s-search"></i></a>
+                                    </div>
+                                    <b class="bg-default op-09 full-wh"></b>
+                                </figcaption>
+                                
+                                <b class="full-wh bg-cover bg-cc" data-bg="images/800x600-blog-01.jpg"></b>
+                                <img src="images/800x600-blog-01.jpg" alt="image" class="op-0">
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="content">
+                            <figure class="hover-box1">
+                                <figcaption class="overlay z2 pd-tiny flex-cc typo-light align-c">
+                                    <div class="pos-rel z1 ani-down w100">
+                                        <a href="images/800x600-blog-02.jpg" class="sq50 btn-white shadow-large hov-bg-white fs22 iconbox rd bdr-1 zoom-img"><i class="pe-7s-search"></i></a>
+                                    </div>
+                                    <b class="bg-default op-09 full-wh"></b>
+                                </figcaption>
+                                
+                                <b class="full-wh bg-cover bg-cc" data-bg="images/800x600-blog-02.jpg"></b>
+                                <img src="images/800x600-blog-02.jpg" alt="image" class="op-0">
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="content">
+                            <figure class="hover-box1">
+                                <figcaption class="overlay z2 pd-tiny flex-cc typo-light align-c">
+                                    <div class="pos-rel z1 ani-down w100">
+                                        <a href="images/800x600-blog-03.jpg" class="sq50 btn-white shadow-large hov-bg-white fs22 iconbox rd bdr-1 zoom-img"><i class="pe-7s-search"></i></a>
+                                    </div>
+                                    <b class="bg-default op-09 full-wh"></b>
+                                </figcaption>
+                                
+                                <b class="full-wh bg-cover bg-cc" data-bg="images/800x600-blog-03.jpg"></b>
+                                <img src="images/800x600-blog-03.jpg" alt="image" class="op-0">
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="content">
+                            <figure class="hover-box1">
+                                <figcaption class="overlay z2 pd-tiny flex-cc typo-light align-c">
+                                    <div class="pos-rel z1 ani-down w100">
+                                        <a href="images/800x600-blog-04.jpg" class="sq50 btn-white shadow-large hov-bg-white fs22 iconbox rd bdr-1 zoom-img"><i class="pe-7s-search"></i></a>
+                                    </div>
+                                    <b class="bg-default op-09 full-wh"></b>
+                                </figcaption>
+                                
+                                <b class="full-wh bg-cover bg-cc" data-bg="images/800x600-blog-04.jpg"></b>
+                                <img src="images/800x600-blog-04.jpg" alt="image" class="op-0">
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="content">
+                            <figure class="hover-box1">
+                                <figcaption class="overlay z2 pd-tiny flex-cc typo-light align-c">
+                                    <div class="pos-rel z1 ani-down w100">
+                                        <a href="images/800x600-blog-05.jpg" class="sq50 btn-white shadow-large hov-bg-white fs22 iconbox rd bdr-1 zoom-img"><i class="pe-7s-search"></i></a>
+                                    </div>
+                                    <b class="bg-default op-09 full-wh"></b>
+                                </figcaption>
+                                
+                                <b class="full-wh bg-cover bg-cc" data-bg="images/800x600-blog-05.jpg"></b>
+                                <img src="images/800x600-blog-05.jpg" alt="image" class="op-0">
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="content">
+                            <figure class="hover-box1">
+                                <figcaption class="overlay z2 pd-tiny flex-cc typo-light align-c">
+                                    <div class="pos-rel z1 ani-down w100">
+                                        <a href="images/800x600-blog-06.jpg" class="sq50 btn-white shadow-large hov-bg-white fs22 iconbox rd bdr-1 zoom-img"><i class="pe-7s-search"></i></a>
+                                    </div>
+                                    <b class="bg-default op-09 full-wh"></b>
+                                </figcaption>
+                                
+                                <b class="full-wh bg-cover bg-cc" data-bg="images/800x600-blog-06.jpg"></b>
+                                <img src="images/800x600-blog-06.jpg" alt="image" class="op-0">
+                            </figure>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+
+        </div>
+        <!-- ************** END : PORTFOLIO **************  -->
+
+        <!--
+        ************************************************************
+        * SUBSCRIBE POPUP
+        *************************************************************
+        -->
+        <div id="popup-content" class="white-popup-block popup-content animate fadeInDown mfp-hide">
+            <div class="pop-header align-c pd-b-0" data-ckav-sm="pd-20">
+                <p class="sq90 inline-flex flex-cc fs80 mr-0 txt-default"><i class="pe-7s-bell"></i></p>
+                <h2 class="title mr-0" data-ckav-sm="small">Newsletter</h2>
+            </div>
+            <div class="pop-body" data-ckav-sm="pd-20">
+                
+                <div class="form-block">
+                    <form action="form-data/notify-me.php" data-formtype="newsletter" class="form-widget" novalidate="novalidate">
+                        <div class="field-wrp">
+                            <input type="hidden" name="to" value="c.kav.art@gmail.com">
+                            <div class="form-group">
+                                <input class="form-control" data-label="Name" required="" data-msg="Please enter name." type="text" name="name" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" data-label="Email" required="" data-msg="Please enter email." type="email" name="email" placeholder="Enter your email">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn solid btn-default block"><i class="fa fa-envelope-o"></i> SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- ************** END : SUBSCRIBE POPUP **************  -->
+
+    </div>
+    <!-- ************** END : MAIN WRAPPER **************  -->
+
+<!-- GOOGLE FONTS -->
+<script>
+    /* Use fonts with class name in sequence => f-1, f-2, f-3 .... */
+    var fgroup = [
+        'Oswald:200,300,400,500,600,700',
+        'Open Sans:300,300i,400,400i,600,600i,700,700i,800,800i',
+        'Satisfy'
+    ];
+</script>
+
+<script src="js/webfonts.js"></script>
+
+<script src="lib/jquery/jquery-3.3.1.min.js"></script>
+<script src="lib/jquery/jquery-migrate-3.0.0.min.js"></script>
+<script src="lib/jquery/popper.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/jquery-smooth-scroll/jquery.smooth-scroll.min.js"></script>
+<script src="lib/jQuery-viewport-checker/jquery.viewportchecker.min.js"></script>
+<script src="lib/Swiper/js/swiper.min.js"></script>
+<script src="lib/owl-carousel/owl.carousel.min.js"></script>
+<script src="lib/Magnific-Popup/jquery.magnific-popup.min.js"></script>
+<script src="lib/isotope/imagesloaded.pkgd.min.js"></script>
+<script src="lib/isotope/isotope.pkgd.min.js"></script>
+<script src="lib/isotope/packery-mode.pkgd.min.js"></script>
+<script src="lib/jQuery-Countdown/jquery-countdown.js"></script>
+
+<script src="lib/sweetalert/sweetalert2.min.js"></script>
+<script src="lib/jquery-validation/jquery.validate.min.js"></script>
+<script src="lib/youtubebackground/jquery.youtubebackground.js"></script>
+<script src="lib/Vide/jquery.vide.min.js"></script>
+<script src="lib/vegas/vegas.min.js"></script>
+<script src="lib/countUp/countUp.js"></script>
+<script src="lib/jarallax-master/jarallax.min.js"></script>
+<script src="js/enquire.min.js"></script>
+<script src="lib/particle-animation/particles.min.js"></script>	
+<script src="lib/particle-animation/partical-animation.js"></script>	
+<script src="js/main.js"></script>
+
+</body>
+</html>
